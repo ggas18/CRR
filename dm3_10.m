@@ -12,7 +12,7 @@ C0=C0/(1+r)^T;
 % put
 P0=C0-S0+K*(1+r)^(-T);
 % nombre de simulation de la v.a
-N=1000;
+N=100000;
 S1=0;% somme des Yi
 S2=0;% sommes des carres des Yi
 for i=1:N
